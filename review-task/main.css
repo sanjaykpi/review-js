@@ -1,0 +1,93 @@
+.foot1 h2{
+	font-size:20px;
+}
+.foot2 h2,.foot3 h2,.foot4 h2{
+	font-size:14px;
+}
+.foot1{
+	line-height:1.5;
+}
+.footer{
+	display :flex;
+	justify-content:space-between; 
+	width:80%;
+	padding:50px 0 0 150px;
+}
+.last2{
+	display :flex;
+	justify-content:space-between; 
+	width:80%;
+	margin:50px 0 0 150px;
+	background-color:gray
+}
+.last{
+	background-color:gray;
+	width:100%;
+}
+.last-right i{
+	font-size:16px;
+}
+.foot2 ul,.foot3 ul{
+	list-style:none;
+	line-height:2;
+	padding:5px;
+}
+.foot2 ul i,.foot3 ul i{
+	font-size:13px;
+	color:green;
+}
+.last span{
+	color: green;
+}
+.foot4 button{
+	width:80px;
+	height:31px;
+	position:absolute;
+	border-radius:10px;
+	left:180px;
+	background-color:green;
+	color:white;
+	border:gray;
+}
+.foot4 input{
+	width:200px;
+	height:25px;
+	position:absolute;
+	border-radius:10px;
+	border:1px solid gray;
+}
+.foot-left{
+	position:relative;
+	margin-top:40px;
+}
+.last-right{
+	font-size:50px;
+	margin-right:100px;
+	margin-top:-20px;
+	margin-top:5px;
+}
+.last-right i{
+	background-color:green;
+	border-radius:50%;
+	width:40px;
+	height:25px;
+	text-align:center;
+	padding-top:10px;
+	
+}
+@media(max-width: 400px){
+	.footer{
+		display:flex;
+		flex-direction:column;
+	}
+	.last2{
+		display:flex;
+		flex-direction:column;
+		height:150px;
+	}
+	.last-right{
+		width:100%;
+	}
+	
+}
+
