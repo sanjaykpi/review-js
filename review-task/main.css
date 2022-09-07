@@ -1,59 +1,131 @@
-body{
-	
-}
-.services{
-	margin-top:80px;
-	height:500px;
-	background:#244668;
-	color:white;
-	padding:30px 0 0 0;
+
+.team{
+	background:#d8ebf1;
+	padding:5px;
 }
 @media(min-width:300px){
-	.ser-top h1{
+	.team-top h1{
 		font-size:25px;
 		text-align:center;
+		color:#434393;
 	}
-	.ser-top p{
+	.team-top p{
 		font-size:18px;
 		text-align:center;
+		color:#3c3030;
 	}
-	.bottom-one{
+	.team-bottom-top img{
+		width:70px;
+		border-radius:50%;
+	}
+	.team-bottom-full{
 		background-color:white;
 		color:#244668 !important;
 		text-align:center;
 		margin:20px;
 		padding:15px;
 	}
-	.bottom-one i{
-		background:#e1e5e7;
-		font-size:25px;
-		padding:15px;
-		border-radius:50%;
+	.team-bottom-down h2{
+		font-size:20px
+		color:#434393;
 	}
-	.ser-bottom{
+	.team-bottom-down h3{
+		font-size:17px;
+		color:#3c3030;
+	}
+	.team-bottom-down p{
+		font-size:16px;
+		color:#3c3030;
+	}
+	.bottom-icon i{
+		background:#e1e5e7;
+		font-size:15px;
 		padding:10px;
+		border-radius:50%;
+		width:15px;
+		height:15px;
+	}
+	.her{
+		position:relative;
+		margin:auto;
+		width:11%;
+	}
+	.heri{
+		position:absolute;
+		left:47%;
+		top:90px;
+		border:solid 2px #7d7de9;
+		margin:auto;
+		width:5%;
 	}
 	
 }
 @media(min-width:700px){
-	.ser-bottom{
-		display: flex;
-        justify-content: space-between;
-         flex-wrap: wrap;
-		 box-sizing:border-box;
+	.team-bottom-full{
+		display:flex;
+		justify-content:space-evenly;
 	}
-	.bottom-one{
-		width:39%;
+	.team-bottom-top img{
+		width:150px;
+		border-radius:50%;
+		margin-top:20px;
 	}
-	.ser-top p{
-		padding:0 50px 0 50px;
+	.team-bottom-down{
+		text-align:left;
+		margin-left:20px;
 	}
-	
+	.team-bottom-down hr{
+		margin-left:-1px;
+	}
+	.her{
+		position:relative;
+		margin:auto;
+		width:9%;
+	}
+	.heri{
+		position:absolute;
+		left:48%;
+		top:90px;
+		border:solid 2px #7d7de9;
+		margin:auto;
+		width:3%;
+	}
 }
 @media(min-width:990px){
-	.ser-bottom{
-		display: flex;
-        justify-content: space-between;
-        flex-wrap: nowrap;
+	.team-bottom-full{
+		display:flex;
+		justify-content:space-evenly;
+		width:40%;
 	}
+	.team-bottom{
+		display:flex;
+		justify-content:space-evenly;
+		flex-wrap:wrap;
+		padding: 40px;
+	}
+	.team-bottom-down{
+		text-align:left;
+		margin-left:20px;
+	}
+	.team-bottom-down hr{
+		margin-left:-1px;
+	}
+	.team-top p{
+		width:75%;
+		margin-left:150px;
+	}
+	.her{
+		position:relative;
+		margin:auto;
+		width:7%;
+	}
+	.heri{
+		position:absolute;
+		left:48%;
+		top:90px;
+		border:solid 2px #7d7de9;
+		margin:auto;
+		width:3%;
+	}
+	
 }
