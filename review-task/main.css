@@ -2,108 +2,73 @@
 .contact{
 	padding:5px;
 }
+.about{
+	padding:60px;
+}
 
 
 @media(min-width:300px){
 	.container{
 	    width:100%;
     }
-	.contact-top h1{
+	.about-top i{
 		font-size:25px;
-		text-align:center;
-		color:#3c3c7c;
+		color:#0db70d;
+		margin-bottom:-15px;
 	}
-	.contact-top p{
-		font-size:18px;
-		text-align:center;
-		color:#959292;
+	.about-top h4{
+		font-size:20px;
+		margin-bottom:15px;
 	}
-	.con-down-left i{
-		background:#cde8f5;
-		color:#33a2d7;
-		font-size:15px;
+	.about-top p{
+		font-size:16px;
+	}
+	.about-top{
+		text-align:center;
+	}
+	.top-child{
+		background:#ededed;
 		padding:10px;
-		width:13px;
-		height:13px;
-		border-radius:5px;
+		margin:6px;
 	}
-	.con-down-left{
+	.about-down span{
+		color:#0db70d;
+		font-size:30px;
+		font-weight:600;
+	}
+	.about-down{
 		text-align:center;
-		padding:10px;
+		padding:15px;
 	}
-	.con-down-right{
-		text-align:center;
+	.about-down p{
+		padding:8px;
 	}
-	.con-down-right input{
-	    margin:5px;
-		width:90%;
-		height:30px;
-		outline: 1px solid lightgray;
-		border:none;
+}
+@media(min-width:500px){
+	.about-down{
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
 	}
-	.con-down-right textarea{
-		width:90%;
-		margin:5px;
-		height:60px;
-		outline: 1px solid lightgray;
-		border:none;
+	.down-child{
+		width:50%;
 	}
-	.con-down-right button{
-		height:30px;
-		width:120px;
-		background:#2280fd;
-		color:#fff;
-		border:none;
-	}
-	.con-down-left p{
-		color:#33a2d7;
-	}
-	.con-down-left h3{
-		color:#3c3c7c;
-	}
-	
 }
 @media(min-width:700px){
-	.con-down-left span{
+	.about-down{
 		display:flex;
-		justify-content:center;
 	}
-	.con-down-left p{
-		margin-top:22px;
-	}
-	.con-down-right input{
-		width:44%;
-		height:30px;
-	}
-	#inp{
-		width:90%;
+	.down-child{
+		width:25%;
 	}
 }
 @media(min-width:990px){
-	.contact-down{
+	.about-top{
 		display:flex;
-		justify-content:space-evenly;
+		text-align:left;
 	}
-	.con-down-left{
-		margin-top:60px;
+	.about-down{
+		padding:40px;
 	}
-	.con-down-right{
-		margin-top:60px;
-	}
-	.con-down-right input{
-		height:40px;
-	}
-	.con-down-left p{
-		font-size:13px;
-	}
-	.con-down-left h3{
-		font-size:18px;
-	}
-	.down-left-one,.down-left-two,.down-left-three{
-		display:flex;
-	}
-	.con-down-left span{
-		margin-top:-10px;
-		margin-left:20px;
-	}
+	
 }
