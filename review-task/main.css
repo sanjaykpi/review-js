@@ -1,74 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
 
-.contact{
-	padding:5px;
+.container{
+	background:url(images/slide-3.jpg)center;
+	background-size:cover;
+	height:600px;
 }
 .about{
 	padding:60px;
 }
-
-
 @media(min-width:300px){
-	.container{
-	    width:100%;
-    }
-	.about-top i{
+	.header-top{
+		background:#5ed6e9;
+		color:#fff;
+		text-align:center;
+	}
+	.header-center{
+		display:flex;
+		justify-content:space-between;
+		background:#fff;
+		height:60px;
+	}
+	.center-one ul{
+		display:none;
+	}
+	.center-one i{
+		margin-top:20px;
 		font-size:25px;
-		color:#0db70d;
-		margin-bottom:-15px;
+		padding-right:50px;
 	}
-	.about-top h4{
-		font-size:20px;
-		margin-bottom:15px;
+	.header-center img{
+		margin-top:13px;
+		padding-left:50px;
 	}
-	.about-top p{
-		font-size:16px;
-	}
-	.about-top{
+	.header-down{
 		text-align:center;
-	}
-	.top-child{
-		background:#ededed;
+		width:80%;
+		margin-left:10%;
+		margin-top:200px;
+		box-sizing:border-box;
 		padding:10px;
-		margin:6px;
+		background:rgba(255,255,255,0.9);
+		border-top:3px solid #5ed6e9;
 	}
-	.about-down span{
-		color:#0db70d;
-		font-size:30px;
-		font-weight:600;
-	}
-	.about-down{
-		text-align:center;
+	.header-down button{
 		padding:15px;
-	}
-	.about-down p{
-		padding:8px;
+		width:120px;
+		background:#5ed6e9;
+		border-radius:5px;
+		border:none;
 	}
 }
 @media(min-width:500px){
-	.about-down{
-		display:flex;
-		flex-direction:row;
-		flex-wrap:wrap;
-	}
-	.down-child{
-		width:50%;
-	}
+	
 }
 @media(min-width:700px){
-	.about-down{
+	.header-top{
 		display:flex;
+		justify-content:space-between;
 	}
-	.down-child{
-		width:25%;
+	.top-one,.top-two{
+		padding:2px 30px;
+	}
+	.header-down{
+		margin-top:300px;
 	}
 }
 @media(min-width:990px){
-	.about-top{
+	.center-one ul{
+		display:block;
+		list-style:none;
 		display:flex;
-		text-align:left;
+		justify-content:space-between;
+		
 	}
-	.about-down{
-		padding:40px;
+	.center-one ul li{
+		display:inline;
+		padding:5px 6px;
 	}
-	
+	.list{
+		background:#5ed6e9;
+		padding:10px;
+	}
+	.center-one i{
+		display:none;
+	}
+}
+@media(min-width:1100px){
+	.center-one ul li{
+		padding:10px;
+	}
 }
